@@ -1,0 +1,20 @@
+html{
+  zoom: 0.55;
+}    
+.rule{
+border-bottom: 1px solid black;
+width:80%;
+}
+.mobile{
+margin-top:-10px;
+}
+.email{
+margin-bottom: 0;    
+}
+body{
+font-family: 'Garamond';
+}
+
+
+
+
