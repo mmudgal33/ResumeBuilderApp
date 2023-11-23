@@ -104,27 +104,31 @@ class Extras extends Component {
 
                                     </div>
                                     <div className="col-lg-6 text-left">
-                                        <input type="text" name="extra_2" className="form-control" defaultValue={values.status === 1 ? '' : values.extra_2} onChange={handleChange} required />
                                         <label htmlFor="extra_2">Hobbies</label>
+                                        <input type="text" name="extra_2" className="form-control" defaultValue={values.status === 1 ? '' : values.extra_2} onChange={handleChange} required />
+                                        
                                     </div>
                                 </div>
                                 <br />
                                 <div className="row col-lg-10 mx-auto">
 
                                     <div className="col-lg-6 text-left">
-                                        <input type="text" name="extra_3" id="extra_3" className="form-control" defaultValue={values.status === 1 ? '' : values.extra_3} onChange={handleChange} required />
                                         <label htmlFor="extra_3">Activity/Achievement</label>
+                                        <input type="text" name="extra_3" id="extra_3" className="form-control" defaultValue={values.status === 1 ? '' : values.extra_3} onChange={handleChange} required />
+                                        
                                     </div>
                                     <div className="col-lg-6 text-left">
-                                        <input type="text" name="extra_4" id="extra_4" className="form-control" defaultValue={values.status === 1 ? '' : values.extra_4} onChange={handleChange} required />
                                         <label htmlFor="extra_4">Activity/Achievement</label>
+                                        <input type="text" name="extra_4" id="extra_4" className="form-control" defaultValue={values.status === 1 ? '' : values.extra_4} onChange={handleChange} required />
+                                        
                                     </div>
                                 </div>
 
                                 <div className="row col-lg-10 mx-auto">
                                     <div className="col-lg-12 text-left">
-                                        <input type="text" name="extra_5" id="extra_5" className="form-control" defaultValue={values.status === 1 ? '' : values.extra_5} onChange={handleChange} required />
                                         <label htmlFor="extra_5">Activity/Achievement</label>
+                                        <input type="text" name="extra_5" id="extra_5" className="form-control" defaultValue={values.status === 1 ? '' : values.extra_5} onChange={handleChange} required />
+                                        
                                     </div>
                                 </div>
                                 <br />
